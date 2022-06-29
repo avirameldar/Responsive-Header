@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+@media (max-width: 599px) {
+  header {
+    padding: 5px;
+    background-color: #0d8b63;
+    transition: all 0.5s ease-in-out;
+    color: black;
+  }
+}
+@media (min-width: 600px) {
+  header {
+    padding: 5px;
+    background-color: #4a85eb;
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-color: #5c46d8;
+    transition: all 0.5s ease-in-out;
+    padding: 5;
+  }
+}/*# sourceMappingURL=main.css.map */
